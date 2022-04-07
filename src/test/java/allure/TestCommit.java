@@ -10,4 +10,8 @@ public class TestCommit {
     void testAssertTrue() {
         assertTrue(6>1);
     }
+    @Test
+    void testAssertFalse() {
+        assertTrue(0>1);
+    }
 }
